@@ -57,13 +57,10 @@
     <instance objName="obj_new_game_classes_pyro" x="77" y="530" name="inst_E00070F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_class_pyro_box" x="64" y="128" name="inst_52C06BA2" locked="0" code="" scaleX="32" scaleY="72" colour="4294967295" rotation="0"/>
     <instance objName="obj_pyromancer_card" x="64" y="128" name="inst_8E344A70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pyromancer" x="68" y="191" name="inst_5E4D8DBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_new_game_classes_knight" x="371" y="528" name="inst_891F5721" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_knight_card" x="352" y="128" name="inst_7EE9922F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_knight" x="338" y="155" name="inst_1BD4AD49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_new_game_classes_hunter" x="662" y="532" name="inst_9DE58297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hunter_card" x="640" y="128" name="inst_A5F48212" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hunter" x="648" y="213" name="inst_4911CAD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="66" y="202" w="254" h="308" xo="0" yo="0" id="10000005" name="inst_5872084B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
