@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="OldPlayer">
+    <sprites name="Player_v1">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_stand_blue</sprite>
       <sprite>sprites\spr_player_attack_blue</sprite>
@@ -69,6 +69,7 @@
       <sprite>sprites\spr_player2_shieldstart</sprite>
       <sprite>sprites\spr_player2_shieldkeep</sprite>
     </sprites>
+    <sprite>sprites\spr_item_sword</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
