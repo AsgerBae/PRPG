@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Player">
+    <sprites name="OldPlayer">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_stand_blue</sprite>
       <sprite>sprites\spr_player_attack_blue</sprite>
@@ -58,6 +58,16 @@
       <sprite>sprites\spr_text_pyromancer</sprite>
       <sprite>sprites\spr_text_treasurehunter</sprite>
       <sprite>sprites\spr_text_who_are_you</sprite>
+    </sprites>
+    <sprites name="Player_v2">
+      <sprite>sprites\spr_player2_walkup</sprite>
+      <sprite>sprites\spr_player2_walkdown</sprite>
+      <sprite>sprites\spr_player2_walkleft</sprite>
+      <sprite>sprites\spr_player2_walkright</sprite>
+      <sprite>sprites\spr_player2_attackleft</sprite>
+      <sprite>sprites\spr_player2_attackright</sprite>
+      <sprite>sprites\spr_player2_shieldstart</sprite>
+      <sprite>sprites\spr_player2_shieldkeep</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
