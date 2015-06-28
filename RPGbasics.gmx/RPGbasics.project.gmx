@@ -16,10 +16,21 @@
       <sprite>sprites\spr_player_run</sprite>
       <sprite>sprites\spr_player_hit</sprite>
     </sprites>
+    <sprites name="Player_v2">
+      <sprite>sprites\spr_player2_walkup</sprite>
+      <sprite>sprites\spr_player2_walkdown</sprite>
+      <sprite>sprites\spr_player2_walkleft</sprite>
+      <sprite>sprites\spr_player2_walkright</sprite>
+      <sprite>sprites\spr_player2_attackleft</sprite>
+      <sprite>sprites\spr_player2_attackright</sprite>
+      <sprite>sprites\spr_player2_shieldstart</sprite>
+      <sprite>sprites\spr_player2_shieldkeep</sprite>
+    </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemy_slime</sprite>
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_demon</sprite>
+      <sprite>sprites\spr_enemy_Demonbat</sprite>
     </sprites>
     <sprites name="Pickups">
       <sprite>sprites\spr_experience</sprite>
@@ -59,18 +70,10 @@
       <sprite>sprites\spr_text_treasurehunter</sprite>
       <sprite>sprites\spr_text_who_are_you</sprite>
     </sprites>
-    <sprites name="Player_v2">
-      <sprite>sprites\spr_player2_walkup</sprite>
-      <sprite>sprites\spr_player2_walkdown</sprite>
-      <sprite>sprites\spr_player2_walkleft</sprite>
-      <sprite>sprites\spr_player2_walkright</sprite>
-      <sprite>sprites\spr_player2_attackleft</sprite>
-      <sprite>sprites\spr_player2_attackright</sprite>
-      <sprite>sprites\spr_player2_shieldstart</sprite>
-      <sprite>sprites\spr_player2_shieldkeep</sprite>
-    </sprites>
     <sprite>sprites\spr_item_sword</sprite>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_HumanBase</sprite>
+    <sprite>sprites\spr_Uther</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
