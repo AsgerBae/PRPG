@@ -70,6 +70,7 @@
       <sprite>sprites\spr_player2_shieldkeep</sprite>
     </sprites>
     <sprite>sprites\spr_item_sword</sprite>
+    <sprite>sprites\spr_fireball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
@@ -155,14 +156,15 @@
       <object>objects\obj_text_hunter</object>
       <object>objects\obj_text_pyromancer</object>
     </objects>
+    <object>objects\obj_fireball</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_1</room>
+    <room>rooms\room_main_menu</room>
     <room>rooms\room_new_game_lore_2</room>
     <room>rooms\room_new_game_classes</room>
     <room>rooms\room_new_game_lore</room>
     <room>rooms\room_new_game_bonuses</room>
-    <room>rooms\room_main_menu</room>
-    <room>rooms\room_1</room>
     <room>rooms\room_2</room>
     <room>rooms\room_test_1</room>
     <room>rooms\room_test_particles</room>
