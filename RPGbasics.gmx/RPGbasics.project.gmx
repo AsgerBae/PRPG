@@ -74,6 +74,8 @@
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_HumanBase</sprite>
     <sprite>sprites\spr_Uther</sprite>
+    <sprite>sprites\GRONK</sprite>
+    <sprite>sprites\GRONKWALK</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
