@@ -6,6 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Neutral">
+      <sprite>sprites\spr_gronk</sprite>
+      <sprite>sprites\spr_gronkwalk</sprite>
+    </sprites>
     <sprites name="Player_v1">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_stand_blue</sprite>
@@ -74,8 +78,6 @@
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_HumanBase</sprite>
     <sprite>sprites\spr_Uther</sprite>
-    <sprite>sprites\GRONK</sprite>
-    <sprite>sprites\GRONKWALK</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
