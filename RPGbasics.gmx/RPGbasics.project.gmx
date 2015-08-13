@@ -6,6 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Neutral">
+      <sprite>sprites\spr_gronk</sprite>
+      <sprite>sprites\spr_gronkwalk</sprite>
+    </sprites>
     <sprites name="Player_v1">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_stand_blue</sprite>
@@ -17,6 +21,7 @@
       <sprite>sprites\spr_player_hit</sprite>
     </sprites>
     <sprites name="Player_v2">
+<<<<<<< HEAD
       <sprite>sprites\spr_player2_run</sprite>
       <sprite>sprites\spr_player2_attack</sprite>
       <sprite>sprites\spr_player2_stand</sprite>
@@ -28,6 +33,12 @@
       <sprite>sprites\spr_player2_standleft</sprite>
       <sprite>sprites\spr_player2_walkright</sprite>
       <sprite>sprites\spr_player2_standright</sprite>
+=======
+      <sprite>sprites\spr_player2_walkup</sprite>
+      <sprite>sprites\spr_player2_walkdown</sprite>
+      <sprite>sprites\spr_player2_walkleft</sprite>
+      <sprite>sprites\spr_player2_walkright</sprite>
+>>>>>>> origin/master
       <sprite>sprites\spr_player2_attackleft</sprite>
       <sprite>sprites\spr_player2_attackright</sprite>
       <sprite>sprites\spr_player2_shieldstart</sprite>
@@ -37,6 +48,7 @@
       <sprite>sprites\spr_enemy_slime</sprite>
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_demon</sprite>
+      <sprite>sprites\spr_enemy_Demonbat</sprite>
     </sprites>
     <sprites name="Pickups">
       <sprite>sprites\spr_experience_orb</sprite>
@@ -86,6 +98,7 @@
       <sprite>sprites\spr_text_treasurehunter</sprite>
       <sprite>sprites\spr_text_who_are_you</sprite>
     </sprites>
+<<<<<<< HEAD
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_minienemy</sprite>
     <sprite>sprites\spr_health</sprite>
@@ -109,6 +122,12 @@
     <sprite>sprites\spr_sword_02_storeimage</sprite>
     <sprite>sprites\spr_exit</sprite>
     <sprite>sprites\sprite78</sprite>
+=======
+    <sprite>sprites\spr_item_sword</sprite>
+    <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_HumanBase</sprite>
+    <sprite>sprites\spr_Uther</sprite>
+>>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
@@ -206,6 +225,7 @@
       <object>objects\obj_text_hunter</object>
       <object>objects\obj_text_pyromancer</object>
     </objects>
+<<<<<<< HEAD
     <objects name="Minigame">
       <object>objects\obj_fireball</object>
       <object>objects\obj_firemage_minigame</object>
@@ -223,6 +243,13 @@
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
     <room>rooms\room_test_2</room>
+=======
+    <object>objects\obj_fireball</object>
+    <object>objects\axel_test_object</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Axel_TEST_ROOM</room>
+>>>>>>> origin/master
     <room>rooms\room_1</room>
     <room>rooms\room_test</room>
     <room>rooms\room_main_menu</room>
