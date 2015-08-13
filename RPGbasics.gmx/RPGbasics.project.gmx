@@ -164,8 +164,10 @@
       <object>objects\obj_text_pyromancer</object>
     </objects>
     <object>objects\obj_fireball</object>
+    <object>objects\axel_test_object</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Axel_TEST_ROOM</room>
     <room>rooms\room_1</room>
     <room>rooms\room_main_menu</room>
     <room>rooms\room_new_game_lore_2</room>
