@@ -16,14 +16,31 @@
       <sprite>sprites\spr_player_run</sprite>
       <sprite>sprites\spr_player_hit</sprite>
     </sprites>
+    <sprites name="Player_v2">
+      <sprite>sprites\spr_player2_run</sprite>
+      <sprite>sprites\spr_player2_attack</sprite>
+      <sprite>sprites\spr_player2_stand</sprite>
+      <sprite>sprites\spr_player2_walkup</sprite>
+      <sprite>sprites\spr_player2_standup</sprite>
+      <sprite>sprites\spr_player2_walkdown</sprite>
+      <sprite>sprites\spr_player2_standdown</sprite>
+      <sprite>sprites\spr_player2_walkleft</sprite>
+      <sprite>sprites\spr_player2_standleft</sprite>
+      <sprite>sprites\spr_player2_walkright</sprite>
+      <sprite>sprites\spr_player2_standright</sprite>
+      <sprite>sprites\spr_player2_attackleft</sprite>
+      <sprite>sprites\spr_player2_attackright</sprite>
+      <sprite>sprites\spr_player2_shieldstart</sprite>
+      <sprite>sprites\spr_player2_shieldkeep</sprite>
+    </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemy_slime</sprite>
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_demon</sprite>
     </sprites>
     <sprites name="Pickups">
-      <sprite>sprites\spr_experience</sprite>
-      <sprite>sprites\spr_experience_2</sprite>
+      <sprite>sprites\spr_experience_orb</sprite>
+      <sprite>sprites\spr_experience_orb_2</sprite>
       <sprite>sprites\spr_poison</sprite>
       <sprite>sprites\spr_gold</sprite>
     </sprites>
@@ -33,12 +50,22 @@
       <sprite>sprites\spr_class_treasure_box</sprite>
       <sprite>sprites\spr_class_hunter_box</sprite>
     </sprites>
+    <sprites name="Weapon">
+      <sprite>sprites\spr_arrow_01</sprite>
+      <sprite>sprites\spr_bow_normal</sprite>
+      <sprite>sprites\spr_sword_01</sprite>
+      <sprite>sprites\spr_sword_02</sprite>
+      <sprite>sprites\spr_sword_03</sprite>
+    </sprites>
     <sprites name="Other">
       <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_wall_minigame</sprite>
       <sprite>sprites\spr_book</sprite>
       <sprite>sprites\spr_tree_1</sprite>
       <sprite>sprites\spr_tree_2</sprite>
       <sprite>sprites\spr_tree_3</sprite>
+      <sprite>sprites\spr_circle_red</sprite>
+      <sprite>sprites\spr_history</sprite>
     </sprites>
     <sprites name="Start">
       <sprite>sprites\spr_knight_card</sprite>
@@ -59,18 +86,29 @@
       <sprite>sprites\spr_text_treasurehunter</sprite>
       <sprite>sprites\spr_text_who_are_you</sprite>
     </sprites>
-    <sprites name="Player_v2">
-      <sprite>sprites\spr_player2_walkup</sprite>
-      <sprite>sprites\spr_player2_walkdown</sprite>
-      <sprite>sprites\spr_player2_walkleft</sprite>
-      <sprite>sprites\spr_player2_walkright</sprite>
-      <sprite>sprites\spr_player2_attackleft</sprite>
-      <sprite>sprites\spr_player2_attackright</sprite>
-      <sprite>sprites\spr_player2_shieldstart</sprite>
-      <sprite>sprites\spr_player2_shieldkeep</sprite>
-    </sprites>
-    <sprite>sprites\spr_item_sword</sprite>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_minienemy</sprite>
+    <sprite>sprites\spr_health</sprite>
+    <sprite>sprites\spr_bar_start</sprite>
+    <sprite>sprites\spr_bar_end</sprite>
+    <sprite>sprites\spr_mana</sprite>
+    <sprite>sprites\spr_exp</sprite>
+    <sprite>sprites\spr_buybotton</sprite>
+    <sprites name="Store">
+      <sprite>sprites\spr_store_bg</sprite>
+      <sprite>sprites\spr_store_goldborder</sprite>
+      <sprite>sprites\spr_store_buybotton</sprite>
+      <sprite>sprites\spr_store_description</sprite>
+      <sprites name="Items">
+        <sprite>sprites\spr_store_item_01</sprite>
+        <sprite>sprites\spr_item_sword</sprite>
+        <sprite>sprites\spr_store_item_02</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\spr_sword_01_storeimage</sprite>
+    <sprite>sprites\spr_sword_02_storeimage</sprite>
+    <sprite>sprites\spr_exit</sprite>
+    <sprite>sprites\sprite78</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
@@ -86,17 +124,27 @@
     <script>scripts\scr_ai.gml</script>
     <script>scripts\scr_part_blood_init.gml</script>
     <script>scripts\scr_part_snow_init.gml</script>
+    <script>scripts\scr_weapon_array_victor.gml</script>
+    <script>scripts\scr_personarray.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_stats</font>
     <font>fonts\font_lore</font>
     <font>fonts\font_lore_small</font>
     <font>fonts\font_numbers</font>
+    <font>fonts\font_damage</font>
+    <font>fonts\font5</font>
+    <font>fonts\font_ui</font>
+    <font>fonts\font_store</font>
+    <font>fonts\font_store_gold</font>
+    <font>fonts\font_store_2</font>
+    <font>fonts\font_store_3</font>
   </fonts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\obj_player</object>
       <object>objects\obj_player_ROYAL</object>
+      <object>objects\obj_sword</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_enemy</object>
@@ -109,10 +157,11 @@
     </objects>
     <objects name="Misc">
       <object>objects\obj_collison</object>
-      <object>objects\obj_healthbar_working_on</object>
       <object>objects\obj_ps</object>
       <object>objects\obj_stats</object>
       <object>objects\obj_globals</object>
+      <object>objects\obj_pause</object>
+      <object>objects\obj_stats_bars</object>
     </objects>
     <objects name="Other">
       <object>objects\obj_player_hit</object>
@@ -120,6 +169,7 @@
       <object>objects\obj_tree_2</object>
       <object>objects\obj_tree_3</object>
       <object>objects\obj_wall</object>
+      <object>objects\obj_damage</object>
     </objects>
     <objects name="Start">
       <objects name="Main Menu">
@@ -156,18 +206,33 @@
       <object>objects\obj_text_hunter</object>
       <object>objects\obj_text_pyromancer</object>
     </objects>
-    <object>objects\obj_fireball</object>
+    <objects name="Minigame">
+      <object>objects\obj_fireball</object>
+      <object>objects\obj_firemage_minigame</object>
+      <object>objects\obj_enemy1_mingame</object>
+    </objects>
+    <object>objects\obj_tester</object>
+    <object>objects\obj_shop</object>
+    <object>objects\obj_buybotton_1</object>
+    <object>objects\obj_buybotton_2</object>
+    <object>objects\obj_buybotton_3</object>
+    <object>objects\obj_buybotton_4</object>
+    <object>objects\obj_buybotton_5</object>
+    <object>objects\obj_buybotton_6</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_initialize</room>
+    <room>rooms\room_test_2</room>
     <room>rooms\room_1</room>
+    <room>rooms\room_test</room>
     <room>rooms\room_main_menu</room>
     <room>rooms\room_new_game_lore_2</room>
     <room>rooms\room_new_game_classes</room>
     <room>rooms\room_new_game_lore</room>
     <room>rooms\room_new_game_bonuses</room>
-    <room>rooms\room_2</room>
     <room>rooms\room_test_1</room>
     <room>rooms\room_test_particles</room>
+    <room>rooms\room_minigame_01</room>
     <rooms name="backgroundstory_mc">
       <room>rooms\room_pyro_1</room>
       <room>rooms\room_pyro_2</room>
@@ -179,6 +244,7 @@
       <room>rooms\room_hunter_2</room>
       <room>rooms\room_hunter_3</room>
     </rooms>
+    <room>rooms\room20</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

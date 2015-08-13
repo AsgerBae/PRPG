@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    hp = 2;
+    hp = 5;
 }
 </string>
           </argument>
@@ -156,7 +156,16 @@
             <string>///Attacking
 {
        image_speed = .2
-       if(hp &lt;= 0) instance_destroy();
+       //Death
+       if(hp &lt;= 0) { 
+       //LootDrops
+       var i, DropRate
+       DropRate = random(5)
+       for (i = 0; i &lt; DropRate; i++) {
+       instance_create(x,y,obj_gold);
+       }
+       instance_destroy();
+       }
     if(instance_exists(obj_player)){
         if(x &lt;= obj_player.x) {
             image_xscale = 1;
@@ -173,7 +182,7 @@
             }
             
             //Player Attack
-            if(obj_player.sprite_index == spr_player_attack &amp;&amp; floor(obj_player.image_index) == 1) {
+            if(obj_player.sprite_index == spr_player2_attack &amp;&amp; floor(obj_player.image_index) == 1) {
                 if(obj_player.image_xscale &lt; 0 &amp;&amp; x=obj_player.x &lt;= 0) {
                     hp-=1;
                     obj_player.image_index = 2;

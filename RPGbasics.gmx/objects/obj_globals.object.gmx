@@ -26,13 +26,17 @@
           <argument>
             <kind>1</kind>
             <string>///Global Variables
-{
+{   
+    global.weapon = 0;
+    global.weapons = 2;
+    global.store = 0;
+    global.persons = 3;
     global.level = 1;
-    global.gold = 0;
-    global.hp = 10;
-    global.maxhp = 10;
-    global.mana = 100;
-    global.maxmana = 100;
+    global.gold = 100;
+    global.hp = 100;
+    global.maxhp = 100;
+    global.mp = 100;
+    global.maxmp = 100;
     global.expr = 0;
     global.maxexpr = 2;
     global.class = 0
@@ -40,7 +44,9 @@
     global.startattribute = 0
     global.maxstartattribute = 3
     global.start = 0
-    global.direct = 1
+    
+    scr_weapon_array_victor();
+    scr_personarray();
 }
 </string>
           </argument>
