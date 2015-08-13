@@ -30,51 +30,11 @@
       <sprite>sprites\spr_player2_shieldstart</sprite>
       <sprite>sprites\spr_player2_shieldkeep</sprite>
     </sprites>
-    <sprites name="Playerv3">
-      <sprites name="Walk">
-        <sprite>sprites\spr_dude_walk_right</sprite>
-        <sprite>sprites\spr_dude_walk_left</sprite>
-        <sprite>sprites\spr_dude_walk_down</sprite>
-        <sprite>sprites\spr_dude_walk_up</sprite>
-        <sprites name="wSword">
-          <sprite>sprites\spr_dude_walk_down_sword</sprite>
-          <sprite>sprites\spr_dude_walk_left_sword</sprite>
-          <sprite>sprites\spr_dude_walk_right_sword</sprite>
-          <sprite>sprites\spr_dude_walk_up_sword</sprite>
-        </sprites>
-      </sprites>
-      <sprites name="Relaxing">
-        <sprite>sprites\spr_dude_relaxing_down</sprite>
-        <sprite>sprites\spr_dude_relaxing_left</sprite>
-        <sprite>sprites\spr_dude_relaxing_right</sprite>
-        <sprite>sprites\spr_dude_relaxing_up</sprite>
-        <sprites name="wSword">
-          <sprite>sprites\spr_dude_relaxing_down_sword</sprite>
-          <sprite>sprites\spr_dude_relaxing_left_sword</sprite>
-          <sprite>sprites\spr_dude_relaxing_right_sword</sprite>
-        </sprites>
-      </sprites>
-      <sprites name="Attack">
-        <sprite>sprites\spr_dude_attack1</sprite>
-        <sprite>sprites\spr_dude_attack2</sprite>
-      </sprites>
-    </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemy_slime</sprite>
       <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_enemy_demon</sprite>
       <sprite>sprites\spr_enemy_Demonbat</sprite>
-      <sprites name="Demons">
-        <sprite>sprites\spr_enemy_stalkerking</sprite>
-        <sprites name="TheForgotten">
-          <sprite>sprites\spr_forgotten_idle</sprite>
-          <sprite>sprites\spr_forgotten_attack</sprite>
-          <sprite>sprites\spr_forgotten_walk_left</sprite>
-          <sprite>sprites\spr_forgotten_walk_right</sprite>
-        </sprites>
-        <sprites name="Stalker">
-          <sprite>sprites\spr_stalker_walk_left</sprite>
-        </sprites>
-      </sprites>
     </sprites>
     <sprites name="Pickups">
       <sprite>sprites\spr_experience</sprite>
@@ -114,12 +74,10 @@
       <sprite>sprites\spr_text_treasurehunter</sprite>
       <sprite>sprites\spr_text_who_are_you</sprite>
     </sprites>
-    <sprite>sprites\spr_mainmenu_clouds</sprite>
-    <sprite>sprites\spr_weaponholder</sprite>
-    <sprite>sprites\spr_hud_exit</sprite>
-    <sprite>sprites\spr_trader</sprite>
-    <sprite>sprites\spr_hud_loadgame</sprite>
-    <sprite>sprites\spr_hud_newgame</sprite>
+    <sprite>sprites\spr_item_sword</sprite>
+    <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_HumanBase</sprite>
+    <sprite>sprites\spr_Uther</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_01</background>
@@ -128,7 +86,6 @@
     <background>background\back_tile_pyromancer</background>
     <background>background\back_tile_knight</background>
     <background>background\back_tile_ranger</background>
-    <background>background\bac_mainmenu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -207,10 +164,10 @@
       <object>objects\obj_text_pyromancer</object>
     </objects>
     <object>objects\obj_fireball</object>
-    <object>objects\obj_mainmenu_clouds</object>
+    <object>objects\axel_test_object</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_mainmenu</room>
+    <room>rooms\Axel_TEST_ROOM</room>
     <room>rooms\room_1</room>
     <room>rooms\room_main_menu</room>
     <room>rooms\room_new_game_lore_2</room>
