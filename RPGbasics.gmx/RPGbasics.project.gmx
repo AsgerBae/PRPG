@@ -101,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_minienemy</sprite>
     <sprite>sprites\spr_health</sprite>
@@ -127,10 +128,13 @@
 =======
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
     <sprite>sprites\spr_item_sword</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_HumanBase</sprite>
     <sprite>sprites\spr_Uther</sprite>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/master
 =======
@@ -140,6 +144,8 @@
     <sprite>sprites\spr_trader</sprite>
     <sprite>sprites\spr_hud_loadgame</sprite>
     <sprite>sprites\spr_hud_newgame</sprite>
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
@@ -265,10 +271,14 @@
   <rooms name="rooms">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <room>rooms\Axel_TEST_ROOM</room>
 >>>>>>> origin/master
 =======
     <room>rooms\room_mainmenu</room>
+>>>>>>> origin/master
+=======
+    <room>rooms\Axel_TEST_ROOM</room>
 >>>>>>> origin/master
 =======
     <room>rooms\Axel_TEST_ROOM</room>
